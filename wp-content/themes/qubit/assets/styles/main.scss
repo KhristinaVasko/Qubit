@@ -1,6 +1,16 @@
 // @import "file";
 
-@import "components/blocks/_header.scss";
-@import "components/blocks/sidebar.scss";
-@import "components/blocks/footer.scss";
+@import "layouts/blocks/_header.scss";
+@import "layouts/blocks/sidebar.scss";
+@import "layouts/blocks/footer.scss";
+@import "components/bootstrap.scss";
+@import "base/base.scss";
 @import "bootstrap.min.css";
+
+.attachment-post-thumbnail {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

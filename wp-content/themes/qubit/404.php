@@ -1,10 +1,9 @@
 <?php get_header();
-$page_title = '404 not found';
+$page_title = __('404 Not Found');
+
+echo get_theme_page_title_block($page_title, false);
 ?>
 
 
-	<div class="front">
-		<h1><?php echo $page_title; ?> </h1>
-	</div>
 <?php get_footer(); ?>
 <?php
