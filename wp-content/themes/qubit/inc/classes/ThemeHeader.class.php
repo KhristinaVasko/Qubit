@@ -5,6 +5,7 @@ class ThemeHeader {
 
 	function __construct() {
 		$this->acf_fields = get_field('header', 'options');
+	
 
 	}
 	/**
